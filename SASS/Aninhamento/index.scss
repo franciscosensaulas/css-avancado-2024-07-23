@@ -1,0 +1,31 @@
+$font-family: Arial, Helvetica, sans-serif;
+
+body {
+    margin: 0;
+    font-family: $font-family;
+}
+
+nav {
+    background-color: #333;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: block;
+                padding: 17px 12px;
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: #3498db;
+                }
+            }
+        }
+    }
+}
