@@ -1,0 +1,47 @@
+$cor-primary: #007BFF;
+$cor-secondary: #6C757D;
+$cor-danger: #DC3545;
+
+@mixin botao-estilo($padding) {
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: $padding;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+@mixin botao-estilo-cor($cor-fundo) {
+    background-color: $cor-fundo;
+
+    &:hover {
+        background-color: darken($cor-fundo, 10%);
+    }
+}
+
+.btn {
+    &.small {
+        @include botao-estilo(8px 12px);
+    }
+
+    &.medium {
+        @include botao-estilo(12px 16px);
+    }
+
+    &.large {
+        @include botao-estilo(16px 20px);
+    }
+
+    &.primary{
+        @include botao-estilo-cor($cor-primary);
+    }
+
+    &.secondary{     
+        @include botao-estilo-cor($cor-secondary);
+    }
+
+    &.danger{
+        @include botao-estilo-cor($cor-danger);
+    }
+}
