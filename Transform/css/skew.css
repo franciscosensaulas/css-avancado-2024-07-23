@@ -1,0 +1,4 @@
+.skew:hover {
+    /* Inclina 20 graus no eixo x e 10 graus no eixo y*/
+    transform: skew(20deg, 10deg);
+}

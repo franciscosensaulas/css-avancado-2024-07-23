@@ -1,0 +1,14 @@
+body {
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.scale:hover {
+    transform: scale(0.5);
+    /*Reduzir para 50% do tamanho*/
+}
+
+.scale:active {
+    transform: scale(2);
+    /*Reduzir para 50% do tamanho*/
+}
