@@ -1,0 +1,12 @@
+.translate-x:hover {
+    transform: translateX(calc(100vw - 300px));
+    /* Mover o elemento horizontalmente */
+}
+
+.translate-y:hover {
+    transform: translateY(100px);
+}
+
+.translate:hover{
+    transform: translate(400px, -100px); /* x e y */
+}
