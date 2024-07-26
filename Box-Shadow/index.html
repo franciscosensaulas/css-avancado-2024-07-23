@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Exemplos de Sombreamento com box-shadow</h1>
+    <p>A propriedade <code>box-shadow</code> é usada para adicionar sombras aos elementos. Permite criar efeitos de
+        profundidade e dar um aspecto mais realista aos elementos da página. A sintaxe é a seguinte:</p>
+    <code>box shadow: h-offset v-offset blur spread color</code>
+
+    <p>O que seria cada parte?</p>
+    <ul>
+        <li><strong>h-offset</strong>: Deslocamento horizontal da sombra. Valores positivos deslocam a sombra para
+            direita e valores negativos para esquerda</li>
+
+        <li><strong>v-offset</strong>: Deslocamento vertical da sombra. Valores positivos deslocam a sombra para baixo e
+            valores negativos para cima</li>
+
+        <li><strong>blur</strong>: Grau de desfoque da sombra. Quanto maior o valor, mais desfocada será a sombra. 0
+            cria uma sombra nítida.</li>
+
+        <li><strong>spread</strong>: Define o quanto a sombra se expande ou contrai. Valores positivos expandem a sobra
+            e valores negativos contraem.</li>
+
+        <li><strong>color</strong>: Define a cor da sombra</li>
+    </ul>
+
+    <p><code>box-shadow</code> aceita múltiplas sombras separadas por vírgula.</p>
+
+    <h2>Sombras simples</h2>
+    <div class="box shadow-simples">
+        <p>Sombra para a direita e para baixo, sem desfoque.</p>
+    </div>
+
+    <div class="box shadow-blur">
+        <p>Sombra para a direita, para baixo, com desfoque de 10px.</p>
+    </div>
+
+    <h2>Sombra com cor</h2>
+    <div class="box shadow-cor-preto">
+        <p>Sombra preta com desfoque</p>
+    </div>
+
+    <div class="box shadow-cor-azul">
+        <p>Sombra azul com desfoque</p>
+    </div>
+
+    <h2>Sombras Multiplas</h2>
+    <div class="box shadow-multiplas">
+        <p>Duas sombras diferentes</p>
+    </div>
+
+    <div class="box shadow-esquerda">
+        <p>Sombra esquerda</p>
+    </div>
+
+    <div class="box shadow-hover">
+        <p>Sombra somente no hover</p>
+    </div>
+</body>
+
+</html>
