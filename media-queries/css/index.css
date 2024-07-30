@@ -7,65 +7,69 @@ main {
     padding: 20px;
     text-align: center;
 }
+
 /* Mobile (até 480px) */
 @media (max-width: 480px) {
-    body{
+    body {
         background-color: lightblue;
     }
 
-    main{
+    main {
         font-size: 14px;
     }
 }
+
 /* Table (481px a 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-    body{
+    body {
         background-color: lightgreen;
     }
 
-    main{
+    main {
         font-size: 16px;
     }
 }
 
 /* Desktop com tela hd */
 @media (min-width: 769px) and (max-width: 1079px) {
-    body{
+    body {
         background-color: lightseagreen;
     }
 
-    main{
+    main {
         font-size: 18px;
     }
 }
+
 /* Desktop com tela full hd */
 @media (min-width: 1080px) and (max-width: 1919px) {
-    body{
+    body {
         background-color: lightcoral;
     }
 
-    main{
+    main {
         font-size: 18px;
     }
 }
 
 /* Desktop com tela 2k */
 @media (min-width: 1920px) and (max-width: 2559px) {
-    body{
+    body {
         background-color: lightslategrey;
     }
 
-    main{
+    main {
         font-size: 20px;
     }
 }
+
 /* Desktop com tela 4k e maior */
 @media (min-width: 2559px) {
-    body{
+    body {
         background-color: blue;
     }
 
-    main{
+    main {
         font-size: 20px;
     }
 }
